@@ -1,0 +1,17 @@
+@import "variables";
+
+@mixin common-button() {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 20px 30px;
+  border: 1px solid $secondary-light-color;
+  border-radius: 5px;
+
+  &:hover {
+    color: $primary-light-color;
+    background-color: $highlight-color;
+    text-decoration: none;
+  }
+}
